@@ -61,8 +61,6 @@ $
 
 
 But also in non-interactive mode:
-
-
 ```
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
