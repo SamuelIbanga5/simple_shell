@@ -42,8 +42,9 @@ write (man 2 write)
 ### Installation
 ```
 gcc -Wall -Wextra -Werror -pedantic -g *.c -o hsh
-*-g* is used for tracing Valgrind errors.
 ```
+`-g` is used for tracing Valgrind errors.
+
 
 ## Usage
 
