@@ -43,7 +43,7 @@ write (man 2 write)
 ```
 gcc -Wall -Wextra -Werror -pedantic -g *.c -o hsh
 *-g* is used for tracing Valgrind errors.
-
+```
 
 ## Usage
 
@@ -58,8 +58,6 @@ hsh main.c shell.c
 ($) exit
 $
 ```
-
-
 But also in non-interactive mode:
 ```
 $ echo "/bin/ls" | ./hsh
