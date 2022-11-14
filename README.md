@@ -80,8 +80,10 @@ $
 - `_unset_env` - Unsets an environmental variable.
 - `_set_env` - Sets an environmental variable.
 2. [_strtok.c](https://github.com/SamuelIbanga5/simple_shell/blob/main/_strtok.c)
-- 't_strlen` - Returns token string length for memory allocating.
+- `t_strlen` - Returns token string length for memory allocating.
 - `t_size` - Returns number of delimiters ignoring continuous delimiters.
 - `ignore_delm` - Returns a version of string without preceeding delims.
 - `_str_tok` - Tokenizes a string and returns an array of tokens.
-
+3. [_exit.c](https://github.com/MelissaN/simple_shell/blob/master/__exit.c) - Includes functions that enable exiting of the shell.
+- `c_atoi` - Custom atoi converts string to int.
+- `__exit` - Frees user input and then exits main program with a value.
