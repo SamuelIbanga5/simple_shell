@@ -82,8 +82,7 @@ char **_str_tok(char *str, char *delm)
 		/* find string ending index */
 		se++;
 	while (si < se)
-	{
-	       	/* malloc lengths for each token ptr in array */
+	{/* malloc lengths for each token ptr in array */
 		if (str[si] != d_ch)
 		{
 			len = t_strlen(str, si, d_ch);
