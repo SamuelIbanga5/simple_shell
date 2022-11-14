@@ -75,4 +75,13 @@ $
 ```
 
 ## DESCRIPTION OF FILE STRUCTURE
+1. [set_unset_env.c]() - Includes functions for setting and unsetting an environment variable.
+- `find_env` - finds the given environmental variable in the linked list.
+- `_unset_env` - Unsets an environmental variable.
+- `_set_env` - Sets an environmental variable.
+2. [strtok.c]()
+- 't_strlen` - Returns token string length for memory allocating.
+- `t_size` - Returns number of delimiters ignoring continuous delimiters.
+- `ignore_delm` - Returns a version of string without preceeding delims.
+- `_str_tok` - Tokenizes a string and returns an array of tokens.
 
