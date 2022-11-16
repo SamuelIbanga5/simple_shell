@@ -22,7 +22,7 @@ int c_atoi(char *s)
 }
 
 /**
- * __exit - frees user input and then exits main program with a value
+ * __exit - frees user input and then exits program with a value
  * @str: user's command into shell (e.g. "exit 99")
  * @env: bring in environmental variable to free at error
  * @num: bring in nth user command line input to print in error message
